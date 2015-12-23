@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="Sign_in_page" content="">
+<meta name="Liang Li" content="">
+<script src="js/jquery.min.js"></script>
+
+<title>Sign In</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/signin.css" rel="stylesheet">
+
+<style>
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: url('img/bannerdark.jpg')
+}
+
+h2 {
+	color: #FFF;
+	text-shadow: 0 0 20px #5bc0de;
+	text-align: center
+}
+</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<form id="form" action="auth" method="post" class="form-signin"
+			style="margin-top: 100px">
+			<h2 class="form-signin-heading">Sign in</h2>
+			<label for="inputEmail" class="sr-only">User ID</label> <input
+				type="text" name="Email" class="form-control" placeholder="Email"
+				required autofocus> <label for="inputPassword"
+				class="sr-only">Password</label> <input type="password"
+				name="Password" class="form-control" placeholder="Password" required>
+
+			<div class="checkbox">
+				<label style="color:#fff;"> <input type="checkbox" value="remember-me">
+					Remember me
+				</label>
+			</div>
+			<input class="btn btn-lg btn-primary btn-block" type="submit"
+				value="Sign in">
+		</form>
+		<p style="text-align:center; color: white">New user? <a href="register.html">Sign Up!</a></p>
+		<p id="notification" align="center"></p>
+	</div>
+</body>
+</html>
