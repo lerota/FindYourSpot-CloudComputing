@@ -8,6 +8,7 @@ To host your own website, first pull the codes and then deploy the whole applica
 To run locally, you need to change the WebSocket client IP in allquestions2.jsp and upload.jsp.
 
 Front End: 
+
     index.html - front page
     register.html/signin.html/checkin.html - register/sign in/check in page
     libinfo.jsp - main page
@@ -16,6 +17,7 @@ Front End:
     upload.jsp - "Snapchat" style Q&A page
     
 Back End:
+
     regiServer.java/authServer.java/testServer.java/signoutServer.java/
     iniServer.java/initCheckCount.java/checkinServer.java/
     CheckInServlet.java/checkoutServer.java/checkOutServlet.java          - Check-in/out part
